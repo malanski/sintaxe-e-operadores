@@ -10,6 +10,7 @@ This repository contains the practical activity of the "Syntax and Operators" Co
 <div align="center">
 <img alt="Base camp JavaScript Course badge" title="Base camp JavaScript Course badge" width="100px" src="sintaxe-logo.png">
 <img alt="Bootcamp Badge" title="Bootcamp Badge" width="100px" src="TQIbadge.png">
+<img alt="Base camp JavaScript Course badge" title="Base camp JavaScript Course badge" width="100px" src="varType-logo.png">
 
 </div>
 
@@ -26,4 +27,5 @@ Create a function that takes two numbers as parameters.
     
 <div align="center">
 <img width="520px" alt="Base camp JavaScript Course certification" title="Base camp JavaScript Course certification" src="certificado-sintaxe.png">
+<img width="520px" alt="Base camp JavaScript Course certification" title="Base camp JavaScript Course certification" src="certifVarType.pdf.png">  
 </div>
