@@ -9,10 +9,10 @@ This repository contains the practical activity of the JavaScript Base camp Cour
 ### TQI Fullstack Developer
 
 <div align="center">
-<img alt="Bootcamp Badge" title="Bootcamp Badge" width="100px" src="TQIbadge.png">
+<img alt="Bootcamp Badge" title="Bootcamp Badge" width="100px" src="js-courses/TQIbadge.png">
 <img alt="Base camp JavaScript Course badge" title="JavaScript Sintax Course completed" width="100px" src="js-courses/sintaxe-logo.png">
 <img alt="Base camp JavaScript Course badge" title="Variables Course completed" width="100px" src="js-courses/varType-logo.png">
-<img alt="Base camp JavaScript Course badge" title="Functions Course completed" width="100px" src="functions-logo.png">  
+<img alt="Base camp JavaScript Course badge" title="Functions Course completed" width="100px" src="js-courses/functions-logo.png">  
 
 </div>
 
