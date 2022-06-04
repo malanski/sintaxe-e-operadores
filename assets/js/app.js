@@ -1,6 +1,14 @@
 
-let button = document.querySelector('#button')
-let name   = document.querySelector('#name')
+let button       = document.querySelector('#button')
+let name         = document.querySelector('#name')
+let height       = document.querySelector('#height')
+let mass         = document.querySelector('#mass')
+let birth_year   = document.querySelector('#birth_year')
+let gender       = document.querySelector('#gender')
+let hair_color   = document.querySelector('#hair_color')
+let skin_color   = document.querySelector('#skin_color')
+let eye_color    = document.querySelector('#eye_color')
+let homeworld    = document.querySelector('#homeworld')
 
 
 
@@ -35,10 +43,10 @@ function updateInfo(data) {
 
 function updateInfoError() {
     name.innerText       = 'Oh no there is no data about this person.' 
-    height.innerText     = 'Sory, try clicking again.'
-    mass.innerText       = ''
+    height.innerText     = ''
+    mass.innerHTML       = '<img src="assets/no-data.jpeg" style="width:100%;">'
     birth_year.innerText = ''
-    gender.innerText     = ''
+    gender.innerText     = 'Try again!'
     hair_color.innerText = ''
     skin_color.innerText = ''
     eye_color.innerText  = ''
