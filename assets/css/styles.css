@@ -27,17 +27,63 @@ main {
     background-image: url('../bg1.jpg');
     background-position: center;
     background-size: cover;
+    transition: all ease-in-out 0.8s;
+}
+.hover-box:hover {
+    box-shadow: 1px 1px 25px 2px yellow; 
 }
 
+.light-saber {
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-start; */
+    transition: box-shadow ease-in .5s;
+
+}
+
+.light-saber:hover {
+    
+    /* justify-content: space-between; */
+}
+
+.light-saber:hover i {
+    color:  rgba(239, 252, 160, 0.8);
+    width: 25%;
+    opacity: 0.4;
+    box-shadow: 130px 0 25px 2px rgb(75, 255, 150); 
+    
+}
+i {
+    transition: all ease-in-out 0.8s;
+    
+}
 .btn {
     background-color: rgb(36, 36, 36);
     color: yellow;
     text-transform: uppercase;
-    padding: 10px 25px;
-    border-radius: 20px;
+    padding: 10px 22px;
+    border-radius: 20px 0 0 20px;
     border-color: yellow;
+    transition: all ease-in-out 0.8s;
+    width: 50%;
+
 }
- .center {
+.ball {
+    border-radius: 50%;
+    margin-left: 5px;
+    transition: all ease-out 1.8s;
+
+}
+.btn:hover {
+    transition: all ease-in-out 1.2s;
+
+    padding: 10px 35px 10px 25px;
+    box-shadow: 155px 0 25px 2px rgb(75, 255, 150); 
+    border-right: 10px solid rgb(75, 255, 150);
+}
+
+
+.center {
      align-self: center;
      text-align: center;
      color: yellow;
