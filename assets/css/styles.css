@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Lato';
+    background-color: black;
+    color: white;
+}
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#info-container {
+    border: 2px solid yellow;
+    border-radius: 20px;
+    width: 414px;
+    min-height: 300px;
+    padding: 40px;
+
+}
+
+.btn {
+    background-color: rgb(36, 36, 36);
+    color: yellow;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border-color: yellow;
+}
+ .center {
+     align-self: center;
+     text-align: center;
+     color: yellow;
+     width: 80%;
+     margin-left: 10%;
+ }
