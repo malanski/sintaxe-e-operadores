@@ -21,7 +21,8 @@ main {
 #info-container {
     border: 2px solid yellow;
     border-radius: 20px;
-    width: 414px;
+    min-width: 360px;
+    max-width: 414px;
     min-height: 300px;
     padding: 20px 30px 10px 30px;
     background-image: url('../bg1.jpg');
@@ -30,10 +31,12 @@ main {
     transition: all ease-in-out 0.8s;
 }
 .hover-box:hover {
-    box-shadow: 1px 1px 25px 2px yellow; 
+    box-shadow: 1px 1px 25px 0px rgb(255, 255, 50); 
 }
 
 .light-saber {
+    width: 300px;
+    margin: 0 auto 0 auto;
     /* display: flex;
     align-items: center;
     justify-content: flex-start; */
@@ -46,17 +49,19 @@ main {
     /* justify-content: space-between; */
 }
 
+i {
+    transition: all ease-in-out 2.8s;
+    opacity: 0.2;
+    
+}
 .light-saber:hover i {
     color:  rgba(239, 252, 160, 0.8);
     width: 25%;
-    opacity: 0.4;
+    opacity: 0.8;
     box-shadow: 130px 0 25px 2px rgb(75, 255, 150); 
     
 }
-i {
-    transition: all ease-in-out 0.8s;
-    
-}
+
 .btn {
     background-color: rgb(36, 36, 36);
     color: yellow;
@@ -65,7 +70,7 @@ i {
     border-radius: 20px 0 0 20px;
     border-color: yellow;
     transition: all ease-in-out 0.8s;
-    width: 50%;
+    min-width: 150px;
 
 }
 .ball {
@@ -76,9 +81,9 @@ i {
 }
 .btn:hover {
     transition: all ease-in-out 1.2s;
-
+    width: 100px;
     padding: 10px 35px 10px 25px;
-    box-shadow: 155px 0 25px 2px rgb(75, 255, 150); 
+    box-shadow: 150px 0 25px 2px rgb(75, 255, 150); 
     border-right: 10px solid rgb(75, 255, 150);
 }
 
@@ -89,4 +94,13 @@ i {
      color: yellow;
      width: 80%;
      margin-left: 10%;
- }
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+    width: 360px;
+    margin: 0 auto 0 auto;
+    height: 150px;
+    color: yellow;
+}

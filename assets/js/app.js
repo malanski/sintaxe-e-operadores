@@ -12,9 +12,10 @@ let homeworld    = document.querySelector('#homeworld')
 
 
 
-function getInfo() {
+async function getInfo() {
 
     updateInfoLoading()
+    await fakePromise();
 
     let randomNumber = Math.floor((Math.random() * 88) + 1)
 
@@ -54,16 +55,18 @@ function updateInfoError() {
 }   
 
 function updateInfoLoading() {
-    name.innerHTML       = '<i class="center fas fa-cog fa-3x fa-spin"></i>' 
-    height.innerText     = ''
+    name.innerHTML       = 'We are searching for, it please wait...' 
+    height.innerHTML     = '<img src="assets/leia.gif" style="width:100%;">'
     mass.innerText       = ''
     birth_year.innerHTML = '<i class="center fas fa-cog fa-2x fa-spin"></i>'
     gender.innerText     = ''
-    hair_color.innerHTML = '<i class="center fas fa-cog fa-5x fa-spin"></i>'
+    hair_color.innerHTML = ''
     skin_color.innerText = ''
     eye_color.innerHTML  = '<i class="center fas fa-cog fa-4x fa-spin"></i>'
     homeworld.innerText  = ''
 }
+
+const fakePromise = () => new Promise((resolve) => setTimeout(resolve, 3000));
 
 button.addEventListener('click', getInfo);
 
