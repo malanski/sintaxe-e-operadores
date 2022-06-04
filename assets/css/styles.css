@@ -11,7 +11,7 @@ html, body {
     color: white;
 }
 main {
-    min-height: 100vh;
+    padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -37,9 +37,9 @@ main {
 .light-saber {
     width: 300px;
     margin: 0 auto 0 auto;
-    /* display: flex;
+     display: flex;
     align-items: center;
-    justify-content: flex-start; */
+    
     transition: box-shadow ease-in .5s;
 
 }
@@ -95,12 +95,37 @@ i {
      width: 80%;
      margin-left: 10%;
 }
+
 footer {
+    width: 360px;
+    height: 50vh;
+    background: black;
+    margin: 0 auto 0 auto;
+}
+
+.links {
     display: flex;
     justify-content: space-evenly;
-    background: black;
-    width: 360px;
-    margin: 0 auto 0 auto;
-    height: 150px;
+    
+}
+.links a {
+    text-decoration: none;
     color: yellow;
+    border-radius: 50%;
+    padding: 10px;
+    border: 0;
+    transition: all ease-in-out .9s;
+    
+}
+
+.links a:hover {
+    border: 1px solid yellow;
+    box-shadow: 
+        1px 1px 25px 0px rgb(255, 255, 50); 
+}
+footer h4 {
+    
+    color: yellow;
+    text-align: center;
+
 }

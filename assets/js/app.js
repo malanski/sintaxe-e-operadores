@@ -30,15 +30,15 @@ async function getInfo() {
 }
 
 function updateInfo(data) {
-    name.innerText       = 'Name: ' + data.name
+    name.innerText       = 'Name: '   + data.name
     height.innerText     = 'Height: ' + data.height + ' cm'
-    mass.innerText       = `Mass: ${data.mass}`
+    mass.innerText       =       `Mass: ${data.mass}`
     birth_year.innerText = `Birth year: ${data.birth_year}`
-    gender.innerText     = `Gender: ${data.gender}`
+    gender.innerText     =     `Gender: ${data.gender}`
     hair_color.innerText = 'Hair color: ' + data.hair_color
     skin_color.innerText = 'Skin solor: ' + data.skin_color
-    eye_color.innerText  = 'Eye color: ' + data.eye_color
-    homeworld.innerText  = 'Homeworld: ' + data.homeworld
+    eye_color.innerText  = 'Eye color: '  + data.eye_color
+    homeworld.innerText  = 'Homeworld: '  + data.homeworld
 }   
 
 
@@ -56,13 +56,13 @@ function updateInfoError() {
 
 function updateInfoLoading() {
     name.innerHTML       = 'We are searching for, it please wait...' 
-    height.innerHTML     = '<img src="assets/leia.gif" style="width:100%;">'
+    height.innerHTML     = '<img src="assets/leia.gif" style="width: 100%; heigth: 80%;">'
     mass.innerText       = ''
-    birth_year.innerHTML = '<i class="center fas fa-cog fa-2x fa-spin"></i>'
+    birth_year.innerHTML = ''
     gender.innerText     = ''
     hair_color.innerHTML = ''
     skin_color.innerText = ''
-    eye_color.innerHTML  = '<i class="center fas fa-cog fa-4x fa-spin"></i>'
+    eye_color.innerHTML  = ''
     homeworld.innerText  = ''
 }
 
