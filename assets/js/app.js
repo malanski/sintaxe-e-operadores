@@ -1,4 +1,3 @@
-
 let button       = document.querySelector('#button')
 let name         = document.querySelector('#name')
 let height       = document.querySelector('#height')
@@ -19,7 +18,7 @@ async function getInfo() {
 
     let randomNumber = Math.floor((Math.random() * 88) + 1)
 
-    let apiUrl = 'http://swapi.dev/api/people/' + randomNumber
+    let apiUrl = 'https://swapi.dev/api/people/' + randomNumber
 
 
     axios.get(apiUrl).then(function(response){
