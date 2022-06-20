@@ -68,5 +68,6 @@ class UniversityAccount extends BankAccount {
     }
 }
 
+
 //  Use this  code example to create a account: const minhaConta = new CheckingAccount(1, 123, true) 
 //  Then use this to manipulate it: minhaConta.balance or minhaConta.deposit(1000) and minhaConta.withdraw(500).

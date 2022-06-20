@@ -1,5 +1,35 @@
+
+// Dark Mode switcher
+function changeMode() {
+    changeClasses()
+    console.log('cliquei')
+}
+
+function changeClasses() {
+    modeBtn.classList.toggle('dark-mode'); 
+    modeTitle.classList.toggle('dark-mode'); 
+    body.classList.toggle('dark-mode'); 
+    footer.classList.toggle('dark-mode'); 
+}
+
+function changeText() {
+    if (modeBtn.classList.contains('dark-mode')) {
+
+    }
+}
+
+const darkModeClass = 'dark-mode'
+
+const modeBtn = document.getElementById('modeToggle')
+const modeTitle = document.getElementById('page-title')
+const body = document.getElementsByTagName('body')[0]
+const footer = document.getElementsByTagName('footer')[0]
+
+modeBtn.addEventListener('click', changeMode)
+
+
 let button       = document.querySelector('#button')
-let name         = document.querySelector('#name')
+let name         = document.querySelector('#name' )
 let height       = document.querySelector('#height')
 let mass         = document.querySelector('#mass')
 let birth_year   = document.querySelector('#birth_year')
