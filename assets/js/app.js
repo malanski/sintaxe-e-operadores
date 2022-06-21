@@ -2,28 +2,45 @@
 // Dark Mode switcher
 function changeMode() {
     changeClasses()
+    changeText()
     console.log('cliquei')
 }
 
 function changeClasses() {
-    modeBtn.classList.toggle('dark-mode'); 
-    modeTitle.classList.toggle('dark-mode'); 
-    body.classList.toggle('dark-mode'); 
-    footer.classList.toggle('dark-mode'); 
+    modeBtn.classList.toggle(darkModeClass); 
+    Btn.classList.toggle(darkModeClass); 
+    container.classList.toggle(darkModeClass); 
+    modeTitle.classList.toggle(darkModeClass); 
+    body.classList.toggle(darkModeClass); 
+    footer.classList.toggle(darkModeClass); 
+    
 }
 
 function changeText() {
-    if (modeBtn.classList.contains('dark-mode')) {
-
-    }
+    const lightText = 'Light Mode'
+    const darkText  = 'Dark Mode'
+    const lightIcon = `<i style='color:yellow' class="fa-solid fa-sun"></i>`
+    const darkIcon  = `<i class="fa-solid fa-moon"></i>`
+    if (body.classList.contains(darkModeClass)) {
+        modeTitle.innerHTML = lightText
+        modeBtn.innerHTML = lightIcon
+        return
+    } 
+    modeTitle.innerHTML = darkText
+    modeBtn.innerHTML = darkIcon
 }
 
 const darkModeClass = 'dark-mode'
 
-const modeBtn = document.getElementById('modeToggle')
-const modeTitle = document.getElementById('page-title')
-const body = document.getElementsByTagName('body')[0]
-const footer = document.getElementsByTagName('footer')[0]
+const modeBtn    = document.getElementById('modeToggle')
+
+const modeTitle  = document.getElementById('mode-title')
+const body       = document.getElementsByTagName('body')[0]
+const footer     = document.getElementsByTagName('footer')[0]
+
+const container        = document.getElementById('info-container')
+const Btn        = document.getElementById('button')
+
 
 modeBtn.addEventListener('click', changeMode)
 
