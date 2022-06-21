@@ -14,7 +14,8 @@ This repository contains the practical activity of the JavaScript Base camp Cour
 <img alt="Base camp JavaScript Course badge" title="Variables Course completed" width="100px" src="js-courses/varType-logo.png">
 <img alt="Base camp JavaScript Course badge" title="Functions Course completed" width="100px" src="js-courses/functions-logo.png">
 <img alt="Base camp JavaScript Course badge" title="Functions Course completed" width="100px" src="js-courses/assync-logo.png">
-<img alt="Base camp JavaScript Course badge" title="Object Oriented JS completed" width="100px" src="js-courses/oop-logo.png">     
+<img alt="Base camp JavaScript Course badge" title="Object Oriented JS completed" width="100px" src="js-courses/oop-logo.png">  
+<img alt="Base camp JavaScript Course badge" title="Object Oriented JS completed" width="100px" src="js-courses/DOM-logo.png">    
 
 </div>
 
@@ -30,6 +31,7 @@ Learn the Fundamentals about JavaScript
 <img width="520px" alt="Base camp JavaScript Syntax Course certification" title="Base camp JavaScript Course certification" src="js-courses/certificado-sintaxe.png">
 <img width="520px" alt="Base camp JavaScript Variables Course certification" title="Base camp JavaScript Course certification" src="js-courses/certifVarType.pdf.png">
 <img width="520px" alt="Base camp JavaScript Fuctions Course certification" title="Base camp JavaScript Course certification" src="js-courses/certi-funtions.pdf.png">  
-<img width="520px" alt="Base camp JavaScript Fuctions Course certification" title="Base camp JavaScript Course certification" src="js-courses/certifAssync.png">   
+<img width="520px" alt="Base camp JavaScript Fuctions Course certification" title="Base camp JavaScript Course certification" src="js-courses/certifAssync.png"> 
 <img width="520px" alt="Base camp JavaScript Fuctions Course certification" title="Base camp JavaScript Course certification" src="js-courses/certifOOP.png">   
+<img width="520px" alt="Base camp JavaScript Fuctions Course certification" title="Base camp JavaScript Course certification" src="js-courses/certifDOM.png">   
 </div>
